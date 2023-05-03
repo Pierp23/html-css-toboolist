@@ -75,6 +75,10 @@ section{
     padding-left: 50px;
 }
 
+.portion{
+    padding-top: 20px;
+}
+
 #triangolino{
     font-size: small;
 }
@@ -100,6 +104,7 @@ section{
 .row{
     display: inline-block;
     line-height: 15px;
+    padding-top: 15px;
 }
 
 .bt{
