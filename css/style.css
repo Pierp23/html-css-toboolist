@@ -45,16 +45,21 @@ header{
 nav{
     height: 50px;
     margin-bottom: 20px;
+    position: relative;
 }
 
 .buttons{
     padding-left: 50px;
+    position: absolute;
+    top:50%;
+    transform: translate(-0%, -50%); 
 }
 
 button{
     width: 70px;
     height: 30px;
-    border-radius: 8px;    
+    border-radius: 8px;
+     
 }
 
 .button-task{
@@ -73,6 +78,7 @@ button{
 /* main */
 section{
     padding-left: 50px;
+    height: 500px;
 }
 
 .portion{
