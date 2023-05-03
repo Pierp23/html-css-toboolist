@@ -44,6 +44,7 @@ header{
 
 nav{
     height: 50px;
+    margin-bottom: 20px;
 }
 
 .buttons{
@@ -66,4 +67,34 @@ button{
     background-color: white;
     color: grey;
     border-color: grey;
+}
+
+
+/* main */
+section{
+    padding-left: 50px;
+}
+
+.check{
+    border-radius: 50%;
+    width: 15px;
+    height: 15px;
+    display: inline-block;
+    border: 1px solid green;
+    color: green;
+    text-align: center;
+}
+
+.row{
+    display: inline-block;
+    line-height: 15px;
+}
+
+.bt{
+    width: 55px;
+    height: 25px;
+    border-radius: 10px; 
+    background-color: #45ABEA;
+    color: white;
+    border: 0;
 }
