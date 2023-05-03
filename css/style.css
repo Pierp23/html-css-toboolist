@@ -7,3 +7,23 @@
 *{
     font-family: 'Roboto', sans-serif;
 }
+
+body{
+    background-color: #F6F8F9;
+}
+
+header{
+    background-color: white;
+    padding: 15px;
+}
+
+.titolo{
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 40px;
+    
+}
+
+.logo{
+    vertical-align: middle;
+}
