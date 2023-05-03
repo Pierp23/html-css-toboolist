@@ -75,14 +75,26 @@ section{
     padding-left: 50px;
 }
 
-.check{
+#triangolino{
+    font-size: small;
+}
+
+.check, .cross{
     border-radius: 50%;
     width: 15px;
     height: 15px;
     display: inline-block;
+    text-align: center;
+}
+
+.check{
     border: 1px solid green;
     color: green;
-    text-align: center;
+}
+
+.cross{
+    border: 1px solid red;
+    color: red;
 }
 
 .row{
@@ -94,7 +106,30 @@ section{
     width: 55px;
     height: 25px;
     border-radius: 10px; 
-    background-color: #45ABEA;
     color: white;
     border: 0;
+}
+
+.bt1{
+    background-color: #45ABEA;
+}
+
+.bt2{
+    background-color: #9C72E4;
+}
+
+.bt3{
+    background-color: #64C0A9;
+}
+
+.bt4{
+    background-color: #F29E33;
+}
+
+.bt5{
+    background-color: #D863A1;
+}
+
+.bt6{
+    background-color: #B0C926;
 }
